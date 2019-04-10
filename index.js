@@ -33,4 +33,4 @@ app.get('/api/photos/:id', (req, res) => {
     .catch(err => res.end());
 });
 
-app.listen(port, () => (console.log('ayo this yo proxy. we good over here on port ', port)));
+app.listen(port, () => (console.log('ayo this yo proxy. we good over here on port', port)));
