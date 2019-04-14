@@ -10,4 +10,4 @@ RUN npm install
 
 EXPOSE 9001
 
-CMD [ "npm", "run", "start-docker" ]
+CMD [ "npm", "run", "server" ]
